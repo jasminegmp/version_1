@@ -1,7 +1,10 @@
 @import '../../foundation';
 
-$transition-time: 3s;
-
-body { 
-    transition: all $transition-time ease-in;
-}
+.fadein-appear {
+    opacity: 0.01;
+  }
+  
+  .fadein-appear.fadein-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
