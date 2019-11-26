@@ -1,0 +1,7 @@
+@import '../../foundation';
+
+$transition-time: 3s;
+
+body { 
+    transition: all $transition-time ease-in;
+}

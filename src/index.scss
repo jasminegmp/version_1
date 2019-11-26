@@ -1,0 +1,13 @@
+@import 'foundation';
+
+$breakpoint: 800px;
+$nav-height: 3.5em;
+$logo-height: 3em;
+
+$transition-time: 3s;
+
+body{
+    color: $indigo-dark;
+    background: $almost-white;
+    font-family: 'Raleway', sans-serif;
+}
