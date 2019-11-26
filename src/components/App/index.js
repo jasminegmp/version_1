@@ -17,7 +17,7 @@ class App extends React.Component{
     }, 4000);
   }
   render() {
-      if (this.state.loading) return <Loader/>;
+      if (this.state.loading) return <Loader/>; // ####BRING THIS BACK WHEN DONE DEBUGGING
       return <Landing/>;
   }
 }

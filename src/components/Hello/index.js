@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function Hello() {
   return (
-    <div className = "container">
+    <div className = "hello-container">
         <h1><strong>Hi! </strong></h1>
         <h1>I'm <strong>Jasmine Gump</strong>, 
         a design-loving software engineer focused on designing and implementing 

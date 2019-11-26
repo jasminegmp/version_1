@@ -1,5 +1,6 @@
 import React from 'react';
 import Hello from '../Hello'
+import LinkBar from '../LinkBar'
 import "./styles.scss";
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
@@ -16,6 +17,7 @@ function Landing() {
       transitionAppearTimeout={500}
       transitionEnter={false}
       transitionLeave={false}>
+        <LinkBar/>
         <Hello/>
       </CSSTransitionGroup>
     </div>
