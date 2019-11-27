@@ -1,0 +1,18 @@
+@import '../../foundation';
+
+$breakpoint: 800px;
+$nav-height: 3.5em;
+$logo-height: 3em;
+
+$transition-time: 3s;
+  
+section{
+  min-width: 400px;
+  max-width: 600px;
+  hyphens: auto;
+  margin: 0px auto;
+  padding: 20px;
+  font-size: .75em;
+}
+
+  

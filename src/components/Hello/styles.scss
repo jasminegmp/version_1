@@ -13,32 +13,36 @@ $transition-time: 3s;
   margin: 0px auto;
   padding: 20px;
   line-height: 3em;
-}
-  
-h1{
-  font-size: 2em;
   font-weight: 400;
-}
 
-p{
-  font-size: 1.75em;
-  font-weight: 400;
-}
-
-.highlight{
-  padding: .2em;
-  text-decoration: none;
-  color: $indigo-dark;
-  box-shadow: inset 0px -.1em $pink;
-  -webkit-transition: all .2s ease-in;
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-  
-  &:hover{
-    color: $almost-white;
-    box-shadow: inset 0px -2em $pink;
+  h1{
+    font-size: 2em;
+    font-weight: 400;
   }
+  
+  p{
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+  
+  .highlight{
+    padding: .2em;
+    text-decoration: none;
+    color: $indigo-dark;
+    box-shadow: inset 0px -.1em $pink;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    
+    &:hover{
+      color: $almost-white;
+      box-shadow: inset 0px -2em $pink;
+    }
+  }
+
+
 }
   
+
   

@@ -1,84 +1,90 @@
 @import '../../foundation';
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .linkbar-container{
     position: fixed;
     bottom: 0;
     margin-left: 2em;
-}
 
-ul{
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-li{
-    padding: .75em;
-}
-
-li.codepen{
-    background: $indigo-dark;
-}
-
-li.github{
-    background: $purple-dark;
-}
-
-li.linkedin{
-    background: $pink;
-}
-li.twitter{
-    background: $purple-light;
-}
-
-li.email{
-    background: $indigo-light;
-}
-
-li a{
-    color: $almost-white;
-    text-decoration:none;
-}
-
-ul:hover > li{
-    opacity: 0.5;
-}
-
-ul:hover > li:hover{
-    position: relative;
-    transform: scale(1.15);
-    z-index: 1;
-    opacity: 1;
-    transition: all 0.3s ease;
-}
-
-.page{
-    position: absolute;
-    height: 100%;
-    min-height: 100vh;
-  }
-
-@media (max-width:800px){
-    .linkbar-container{
-        background: $almost-white;
-        height: 3em;
-        margin-left: 0;
-        position: absolute;
-        right: 0;
-        left: 0;
-        min-width: 350px;
-        padding-bottom: .4em;
-      }
-
-      ul li{
-        position: relative; 
-        font-size: 1.25em;
-        display:inline;
-        top: .75em;
-      }
+    ul{
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    li{
+        padding: .75em;
+    }
+    
+    li.codepen{
+        background: $indigo-dark;
+    }
+    
+    li.github{
+        background: $purple-dark;
+    }
+    
+    li.linkedin{
+        background: $pink;
+    }
+    li.twitter{
+        background: $purple-light;
+    }
+    
+    li.email{
+        background: $indigo-light;
+    }
+    
+    li a{
+        color: $almost-white;
+        text-decoration:none;
+    }
+    
     ul:hover > li{
         opacity: 0.5;
     }
+    
+    ul:hover > li:hover{
+        position: relative;
+        transform: scale(1.15);
+        z-index: 1;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    
+    .page{
+        position: absolute;
+        height: 100%;
+        min-height: 100vh;
+      }
 }
 
+@media (max-width:800px){
+    .linkbar-container{
+        position: static;
+        min-width: 350px;
+        margin-left: 0;
+        left: 0;
+        bottom: 0;
+        height: 3em;
+        width: 100%;
+    }
+
+
+    ul li{
+        position: relative;
+        top: .753em;
+        font-size: 1.25em;
+        display:inline;
+      }
+
+    ul:hover > li{
+        opacity: 0.5;
+    }
+
+}
