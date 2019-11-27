@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from '../Navigation'
 import Hello from '../Hello'
 import LinkBar from '../LinkBar'
 import About from '../About'
@@ -18,7 +19,7 @@ function Landing() {
       transitionAppearTimeout={500}
       transitionEnter={false}
       transitionLeave={false}>
-        
+        <Navigation/>
         <Hello/>
         <About/>
         <LinkBar/>
