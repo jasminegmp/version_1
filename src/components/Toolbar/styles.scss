@@ -1,0 +1,63 @@
+@import '../../foundation';
+
+.toolbar{
+    position: absolute;
+    width: 100%;
+    background: $indigo-dark;
+    color: $almost-white;
+    height: 3em;
+    top: 0;
+    left: 0;
+
+}
+
+.toolbar_navigation{
+    display: flex;
+    align-items: center; // centers vertically
+    height: 100%;
+    padding: 0 1rem; // 0 top bottom, 1rem left and right
+}
+
+.toolbar-logo a{
+    color: $almost-white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.spacer{
+    flex: 1; // take all free space between logo and navigation items
+}
+
+.toolbar_navigation-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation-items li{
+    padding: 0 0.5em;
+}
+
+.toolbar_navigation-items a{
+    color: $almost-white;
+    text-decoration: none;
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active{
+    color: $pink;
+}
+
+@media (max-width: 700px){
+    .toolbar_navigation-items{
+        display: none;
+    }
+}
+
+@media (min-width: 701px){
+    .toolbar_toggle-button{
+        display: none;
+    }
+}

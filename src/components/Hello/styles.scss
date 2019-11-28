@@ -7,10 +7,11 @@ $logo-height: 3em;
 $transition-time: 3s;
   
 .hello-container{
-  min-width: 400px;
+  margin: 3.5em auto;
+  padding-top: 3.5em;
+  min-width: 300px;
   max-width: 600px;
   hyphens: auto;
-  margin: 0px auto;
   padding: 20px;
   line-height: 3em;
   font-weight: 400;

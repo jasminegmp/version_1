@@ -1,0 +1,25 @@
+@import '../../foundation';
+
+.toggle-button{
+    display: flex;
+    flex-direction: column; //hamburger buttons lined up vertically
+    justify-content: space-between;
+    height: 2em;
+    width: 3.5em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus{
+    outline:none;
+}
+
+.toggle-button_line{
+    width: 3em; // must explicitly state size when divs are inside buttons
+    height: .2em;
+    background: $almost-white;
+    
+}

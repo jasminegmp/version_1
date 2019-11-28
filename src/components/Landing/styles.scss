@@ -1,5 +1,10 @@
 @import '../../foundation';
 
+.landing{
+  height: 100%;
+  width: 100%;
+}
+
 .fadein-appear {
     opacity: 0.01;
   }
@@ -8,3 +13,4 @@
   opacity: 1;
   transition: opacity .5s ease-in;
 }
+

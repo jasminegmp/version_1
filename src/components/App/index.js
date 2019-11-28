@@ -18,7 +18,7 @@ class App extends React.Component{
   }
   render() {
       //if (this.state.loading) return <Loader/>; // ####BRING THIS BACK WHEN DONE DEBUGGING
-      return <Landing/>;
+      return <Landing style = {{height: "100%"}}/>;
   }
 }
 

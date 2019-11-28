@@ -8,7 +8,8 @@ html, body {
 .linkbar-container{
     position: fixed;
     bottom: 0;
-    margin-left: 2em;
+    right: 0;
+    margin-right: 2em;
 
     ul{
         list-style-type: none;
@@ -64,10 +65,10 @@ html, body {
       }
 }
 
-@media (max-width:800px){
+@media (max-width:700px){
     .linkbar-container{
         position: static;
-        min-width: 350px;
+        min-width: 300px;
         margin-left: 0;
         left: 0;
         bottom: 0;
@@ -76,14 +77,14 @@ html, body {
     }
 
 
-    ul li{
+    .linkbar-container ul li{
         position: relative;
         top: .753em;
         font-size: 1.25em;
         display:inline;
       }
 
-    ul:hover > li{
+      .linkbar-container ul:hover > li{
         opacity: 0.5;
     }
 
