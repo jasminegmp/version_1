@@ -1,5 +1,7 @@
 @import '../../foundation';
 
+$logo-height: 2.5em;
+
 .toolbar{
     position: absolute;
     width: 100%;
@@ -16,6 +18,11 @@
     align-items: center; // centers vertically
     height: 100%;
     padding: 0 1rem; // 0 top bottom, 1rem left and right
+}
+
+.toolbar-logo{
+    height: $logo-height;
+    width: $logo-height;
 }
 
 .toolbar-logo a{
