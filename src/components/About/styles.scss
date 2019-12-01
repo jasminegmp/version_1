@@ -6,13 +6,27 @@ $logo-height: 3em;
 
 $transition-time: 3s;
   
-section{
-  min-width: 320x;
-  max-width: 600px;
+
+
+.section-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // lines up vertically
+  flex-direction: row; // places things in same row
+}
+
+.about-info{
+  min-width: 500px;
+  max-width: 60%;
   hyphens: auto;
-  margin: 0px auto;
-  padding: 20px;
-  font-size: .75em;
+  font-size: .9em;
+  flex-grow: 2;
+}
+
+.about-image{
+  min-width: 200px;
+
 }
 
   

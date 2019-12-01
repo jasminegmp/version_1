@@ -1,0 +1,61 @@
+@import '../../foundation';
+
+$image-size: 200px;
+$border-radius: 50%;
+$highlight-border: 10px;
+
+.avatar_container{
+  position: relative;
+  margin: $highlight-border;
+}
+
+.avatar_overlay{
+  z-index: 2;
+  background-color: $indigo-light;
+  opacity: .3;
+  position: relative;
+  width: $image-size;
+  height: $image-size;
+  border-radius: $border-radius;
+  
+}
+
+.avatar_profile-photo{
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $image-size;
+  border-radius: $border-radius;
+}
+
+.avatar_overlay:hover  {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.avatar_overlay:hover ~.avatar_hover-circle{
+  animation: highlight 1s ease-out forwards;
+}
+
+
+.avatar_hover-circle{
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  border: $highlight-border solid $indigo-light;
+  left: $highlight-border * -1;
+  top: $highlight-border * -1;
+  width: $image-size;
+  height: $image-size;
+  border-radius: $border-radius;
+  
+}
+
+@keyframes highlight{
+  50%,100%{
+    opacity: 1;
+  }
+}
+
+

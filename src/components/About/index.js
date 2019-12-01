@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from "marked";
+import Avatar from '../Avatar';
 import "./styles.scss";
 
 class About extends React.Component{
@@ -29,9 +30,15 @@ class About extends React.Component{
     const { markdown } = this.state;
 
     return (
-      <section>
-        <article dangerouslySetInnerHTML={{__html: markdown}}></article>
-      </section>
+      <div class = "section-container">
+        <div class = "about-info">
+          <h1 class = "about-h1">About Me</h1>
+          <article class = "about-info-text" dangerouslySetInnerHTML={{__html: markdown}}></article>
+        </div>
+        <div class = "about-image">
+          <Avatar/>
+        </div>
+      </div>
     )
   }
 }

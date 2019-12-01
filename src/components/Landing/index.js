@@ -7,7 +7,6 @@ import LinkBar from '../LinkBar'
 import About from '../About'
 import "./styles.scss";
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
-import { Back } from 'gsap';
 
 
 class Landing extends React.Component{
