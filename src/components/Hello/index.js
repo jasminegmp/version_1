@@ -1,9 +1,10 @@
 import React from 'react';
 import "./styles.scss";
+import "../../section.scss";
 
 function Hello() {
   return (
-    <div className = "hello-container">
+    <div className = "section-fullpage">
       <div className = "hello-info">
           <h1><strong>Hi! </strong></h1>
           <h1>I'm <strong>Jasmine Gump</strong>, 

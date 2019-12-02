@@ -6,17 +6,6 @@ $logo-height: 3em;
 
 $transition-time: 3s;
   
-.hello-container{
-  line-height: 4em;
-  margin: auto auto auto auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; // lines up vertically
-  flex-direction: row; // places things in same row
-  height: 100%;
-}
-
 .hello-info {
   min-width: 500px;
   hyphens: auto;

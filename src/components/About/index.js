@@ -2,6 +2,7 @@ import React from 'react';
 import marked from "marked";
 import Avatar from '../Avatar';
 import "./styles.scss";
+import "../../section.scss";
 
 class About extends React.Component{
   constructor(props) {

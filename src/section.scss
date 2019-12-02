@@ -1,0 +1,22 @@
+.section-fullpage{
+    //border: solid 2px blue;
+    line-height: 4em;
+    margin: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; // lines up vertically
+    flex-direction: row; // places things in same row
+    height: 100%;
+  }
+
+  .section-container{
+    //border: dotted 2px blue;
+    margin: 5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; // lines up vertically
+    flex-direction: row; // places things in same row
+    width: 100%;
+  }
