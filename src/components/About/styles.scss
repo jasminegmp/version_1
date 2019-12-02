@@ -1,24 +1,17 @@
 @import '../../foundation';
 
-$breakpoint: 800px;
-$nav-height: 3.5em;
-$logo-height: 3em;
-
-$transition-time: 3s;
-  
-
-
 .section-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; // lines up vertically
   flex-direction: row; // places things in same row
+  width: 100%;
 }
 
 .about-info{
   min-width: 500px;
-  max-width: 60%;
+  max-width: 40%;
   hyphens: auto;
   font-size: .9em;
   flex-grow: 2;
@@ -26,6 +19,7 @@ $transition-time: 3s;
 
 .about-image{
   min-width: 200px;
+  max-width: 10%;
 
 }
 

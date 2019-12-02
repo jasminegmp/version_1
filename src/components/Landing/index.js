@@ -48,8 +48,9 @@ class Landing extends React.Component{
           <Toolbar drawerClickHandler = {this.drawerToggleClickHandler}/>
           <SideDrawer show = {this.state.sideDrawerOpen}/>
           {backDrop}
-
-          <Hello/>
+          <div class = "container-fullpage">
+            <Hello/>
+          </div>
           <About/>
           <LinkBar/>
         </CSSTransitionGroup>

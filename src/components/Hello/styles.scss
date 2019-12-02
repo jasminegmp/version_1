@@ -7,42 +7,47 @@ $logo-height: 3em;
 $transition-time: 3s;
   
 .hello-container{
-  margin: 3.5em auto;
-  padding-top: 3.5em;
-  min-width: 300px;
-  max-width: 600px;
+  line-height: 4em;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // lines up vertically
+  flex-direction: row; // places things in same row
+  height: 100%;
+}
+
+.hello-info {
+  min-width: 500px;
   hyphens: auto;
-  padding: 20px;
-  line-height: 3em;
+  font-size: 2;
+  width: 50%;
+}
+
+.hello-info h1{
+  font-size: 2em;
   font-weight: 400;
+}
 
-  h1{
-    font-size: 2em;
-    font-weight: 400;
-  }
+.hello-info p{
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+.hello-info .highlight{
+  padding: .2em;
+  text-decoration: none;
+  color: $indigo-dark;
+  box-shadow: inset 0px -.1em $pink;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
   
-  p{
-    font-size: 1.75em;
-    font-weight: 400;
+  &:hover{
+    color: $almost-white;
+    box-shadow: inset 0px -2em $pink;
   }
-  
-  .highlight{
-    padding: .2em;
-    text-decoration: none;
-    color: $indigo-dark;
-    box-shadow: inset 0px -.1em $pink;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    
-    &:hover{
-      color: $almost-white;
-      box-shadow: inset 0px -2em $pink;
-    }
-  }
-
-
 }
   
 
