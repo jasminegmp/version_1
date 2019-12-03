@@ -1,44 +1,59 @@
 @import './foundation';
 
+
 .section-fullpage{
-    //border: solid 2px blue;
-    line-height: 4em;
-    margin: auto auto auto auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; // lines up vertically
-    flex-direction: row; // places things in same row
-    height: 100%;
-  }
+  //border: solid 2px blue;
+  line-height: 4em;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // lines up vertically
+  flex-direction: row; // places things in same row
+}
 
-  .section-container{
-    //border: dotted 2px blue;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; // lines up vertically
-    flex-direction: row; // places things in same row
-    width: 60%;
-    padding-bottom: 10em;
+@media (min-width:700px){
+  .section-fullpage{
+    height: 100vh;
   }
+}
 
-  .section-headline{
-    width: 7em;
-    text-align:center;
-    font-size: 2em;
-    color: $pink;
-    padding: .25em;
-    border: 5px solid $pink;
-    border-radius: 20px;
+.section-container{
+  //border: dotted 2px blue;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // lines up vertically
+  flex-direction: row; // places things in same row
+  width: 60%;
+  padding-bottom: 10em;
+}
+
+.section-headline{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2em;
+  color: $pink;
+  position: relative;
+  overflow: hidden;
+  &:after{
+    display: inline-block;
+    content: "";
+    height: 2px;
+    background: $pink;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: 10px;
   }
+}
 
-  .section-info{
-    margin: 0;
-    min-width: 500px;
-    hyphens: auto;
-    font-size: 1.1em;
-    flex-grow: 2;
+.section-info{
+  min-width: 300px;
+  hyphens: auto;
+  font-size: 1.1em;
+  flex-grow: 2;
 
-  }
+}

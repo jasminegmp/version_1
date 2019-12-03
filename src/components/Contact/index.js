@@ -31,11 +31,13 @@ class Contact extends React.Component{
     const { markdown } = this.state;
 
     return (
-      <div className = "section-container">
+      <div className = "section-container" id = "contact">
           <div class = "section-info contact-info">
             <h1 className = "section-headline">Get In Touch</h1>
             <article dangerouslySetInnerHTML={{__html: markdown}}></article>
-            <Button url = "mailto:jasminegmp@gmail.com" name = "Say Hi"/>
+            <div class = "button-email">
+              <Button url = "mailto:jasminegmp@gmail.com" name = "Say Hi"/>
+            </div>
           </div>
       </div>
     )

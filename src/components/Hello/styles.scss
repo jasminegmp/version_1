@@ -7,13 +7,20 @@ $logo-height: 3em;
 $transition-time: 3s;
   
 .hello-info {
-  min-width: 500px;
+  margin: 3em 0;
+  min-width: 300px;
   hyphens: auto;
   font-size: 2;
   width: 50%;
 }
 
 .hello-info h1{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.hello-info h2{
   font-size: 2em;
   font-weight: 400;
 }
@@ -24,6 +31,7 @@ $transition-time: 3s;
 }
 
 .hello-info .highlight{
+  font-family: 'Source Code Pro', monospace;
   padding: .2em;
   text-decoration: none;
   color: $indigo-dark;

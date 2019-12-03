@@ -1,14 +1,15 @@
 @import '../../foundation';
 
 button{
+    font-family: 'Source Code Pro', monospace;
     background: transparent;
-    width: 7em;
+    width: 8em;
     text-align:center;
-    font-size: 2em;
+    font-size: 1em;
     color: $pink;
     padding: .25em;
     border: 5px solid $pink;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
@@ -16,4 +17,14 @@ button a{
     color: $pink;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background: $pink;
+    transition-duration: .4s;
+    a{
+        color: $almost-white;
+    }
+
 }
