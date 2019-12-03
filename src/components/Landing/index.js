@@ -5,6 +5,7 @@ import Backdrop from '../Backdrop'
 import Hello from '../Hello'
 import LinkBar from '../LinkBar'
 import About from '../About'
+import Contact from '../Contact'
 import "./styles.scss";
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
@@ -50,6 +51,7 @@ class Landing extends React.Component{
           {backDrop}
           <Hello/>
           <About/>
+          <Contact/>
           <LinkBar/>
         </CSSTransitionGroup>
       </div>

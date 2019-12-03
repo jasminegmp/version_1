@@ -32,9 +32,9 @@ class About extends React.Component{
 
     return (
       <div class = "section-container">
-        <div class = "about-info">
-          <h1 class = "about-h1">About Me</h1>
-          <article class = "about-info-text" dangerouslySetInnerHTML={{__html: markdown}}></article>
+        <div class = "section-info about-info">
+          <h1 class = "section-headline">About Me</h1>
+          <article dangerouslySetInnerHTML={{__html: markdown}}></article>
         </div>
         <div class = "about-image">
           <Avatar/>

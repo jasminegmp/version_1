@@ -1,3 +1,5 @@
+@import './foundation';
+
 .section-fullpage{
     //border: solid 2px blue;
     line-height: 4em;
@@ -11,12 +13,32 @@
   }
 
   .section-container{
-    border: dotted 2px blue;
-    margin: 4em 0;
+    //border: dotted 2px blue;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; // lines up vertically
     flex-direction: row; // places things in same row
-    width: 100%;
+    width: 60%;
+    padding-bottom: 10em;
+  }
+
+  .section-headline{
+    width: 7em;
+    text-align:center;
+    font-size: 2em;
+    color: $pink;
+    padding: .25em;
+    border: 5px solid $pink;
+    border-radius: 20px;
+  }
+
+  .section-info{
+    margin: 0;
+    min-width: 500px;
+    hyphens: auto;
+    font-size: 1.1em;
+    flex-grow: 2;
+
   }
