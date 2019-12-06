@@ -57,3 +57,16 @@
   flex-grow: 2;
 
 }
+
+
+.section-row{
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.section-column{
+  display: flex;
+  flex-direction: column; // places things in same column
+}

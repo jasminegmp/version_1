@@ -1,42 +1,50 @@
 {
     "2009":{
-        "title": "Started my BS degree ",
-        "description":["In Electrical and Computer Engineering at University of Colorado"],
-        "location": "Boulder,CO"
+        "title": "Started my BS degree",
+        "location": "Boulder,CO",
+        "description":["Majored in Electrical and Computer Engineering at the University of Colorado"]
+        
     },
     "2011":{
         "title": "First engineering internship at Cirrus Logic",
-        "description": ["Worked on patent applications for electrical LED designs"],
-        "location": "Austin, TX"
+        "location": "Austin, TX",
+        "description": ["Worked with inventors to write patent applications for electrical LED designs", "Spent a super hot summer in Austin, Texas!"]
     },
     "2012":{
         "title": "Returned for second summer of internship at Cirrus Logic",
-        "description":["Joined Marketing Engineering team"],
-        "location": "Boulder,CO"
+        "location": "Austin, TX",
+        "description":["Joined Product Marketing Engineering team to see if I wanted to pursue marketing or stay technical (the answer was technical in the end)", "Worked on LED product marketing", "Spent another summer in Weird Austin"]
     },
     "2013":{
-        "title": "Finished BS degree, accepted first job ",
-        "description":["Graduated with BS in Electrical and Computer Engineering at University of Colorado", "Moved to Irvine, California for a electrical engineering full-time position at Western Digital"],
-        "location": "Irvine,CA"
+        "title": "Finished BS degree, accepted first job",
+        "location": "Orange County, CA",
+        "description":["Graduated with BS in Electrical and Computer Engineering at University of Colorado", "Moved to Orange County, California for a full-time position at Western Digital as a computer engineer", "Achieved my dream to live in Southern California"]
     },
     "2014":{
         "title": "Switched positions at WD to become an embedded software engineer",
-        "description":["Changed teams in Western Digital to do more software"],
-        "location": "Irvine, CA"
+        "location": "Orange County, CA",
+        "description":["Changed teams in Western Digital because I realized I enjoyed writing software", "Lead the design and implementation of boot ROM firmware for new SoCs. Implemented in C", "Lead the design and implementation of an automation test framework for electrical characterization. Implemented in MATLAB OOP."]
     },
     "2016":{
         "title": "Got promoted to senior embedded software engineer",
-        "description":["At Western Digital"],
-        "location": "Irvine,CA"
+        "location": "Orange County, CA",
+        "description":["At Western Digital", "Became lead designer and implementer of boot ROM firmware"]
+        
     },
     "2017":{
-        "title": "Left WD. Accepted a Graduate school research position and started MS degree",
-        "description":["In Computer Science at University of California, Riverside", "Data Mining researcher"],
-        "location": "Riverside ,CA"
+        "title": "Left WD. Accepted a graduate school research position and started MS degree",
+        "location": "Riverside ,CA",
+        "description":["Wanted to learn more computer science topics since I was coming from a computer engineering background", "Started a MS in Computer Science at University of California, Riverside", "Researched Data Mining techniques under Professor Eamonn Keogh"]
+        
     },
     "2019":{
-            "title": "Left UCR. Got married. Pursuing Front End development.",
-            "description": ["Left Grad School with 3.9GPA, most credits done.", "Wanted to change gears once more.", "Got married", "Worked on Eudora." ],
-            "location": "Orange County, CA"
+            "title": "The year of many changes!",
+            "location": "Orange County, CA",
+            "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React"]
+    },
+    "2020":{
+        "title": "Actively Seeking Front End Development Position",
+        "location": "Orange County, CA",
+        "description": ["Seeking front end developer positions!", "Working on personal projects"]
     }
 }

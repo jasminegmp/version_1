@@ -11,16 +11,20 @@ const DescriptionItems = ({ data }) => {
 
 const YearEvents = ({ year, data }) => {
   return (
-
-    <ul>
+    <ul className = "list-container" >
       {data && Object.keys(data).map((item, index) => {
         if(item === 'description'){
           return (
               <DescriptionItems data = {data}/>
           )
         }
+        else if(item === 'location'){
+          return (
+             <h5>{data[item]}</h5>
+          )
+        }
         else{
-          return <li key ={index}>{data[item]}</li>
+          return <h3>{data[item]}</h3>
         }
         
       })}
@@ -28,12 +32,21 @@ const YearEvents = ({ year, data }) => {
   )
 }
 
+const DisplayDetail = ({year, data}) => {
+  return <div className = "detail-container">
+     <YearEvents key={year} year={year} data={data[year]} />
+    </div>
+}
+
 class Timeline extends React.Component{
   constructor(props) {
     super(props);
     
     this.state = {
-        data: null
+        data: null,
+        prevKey: null,
+        key: null,
+        detail: null,
     };
   }
 
@@ -45,24 +58,33 @@ class Timeline extends React.Component{
   }
 
 
+  handleClick = (event, year) => {
+    event.preventDefault();
+    this.setState({key:year});
+  }
+  
+
+
   render() {
-    const {data} = this.state;
+    const {data, key} = this.state;
     return (
-        <div class = "section-container" id = "timeline">
-            <div class = "section-info timeline-info">
-                <h1 class = "section-headline">Timeline</h1>
-                
-                  {
-                    data && Object.keys(data).map((year,index) => {
-                      return [
-                        <span>{year}</span>,
-                        <YearEvents key={index} year={year} data={data[year]} />
-                      ]
-                      })
+        <div className = "section-container" id = "timeline">
+            <div className = "section-info timeline-info">
+                <h1 className = "section-headline">Timeline</h1>
+                <div className = "section-row">
+                  <div className = "section-column year-column">
+                    {
+                        data && Object.keys(data).map((year,index) => {
+                          return (
+                            <button className="year-container" onClick={(event)=>this.handleClick(event, year)}>{year}</button>
+                          )})
+                      }
+                    </div>
+                    <div className = "section-column detail-column">
 
-
-                  }
-
+                      {key? <DisplayDetail year = {key} data = {data}/> : <div className = "default-detail-box">Click on a year</div>}
+                    </div>
+                  </div>
             </div>
         </div>
     )

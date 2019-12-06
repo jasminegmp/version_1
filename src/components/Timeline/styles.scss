@@ -9,3 +9,38 @@
   font-size: .8em;
   flex-grow: 2;
 }
+
+.year-container{
+  margin: .5em 0;
+  border: 2px solid $pink !important;
+}
+
+.year-container:hover{
+  color: $almost-white;
+}
+
+.section-column{
+  margin: 0 .2em;
+  width: 100%;
+}
+
+.detail-column{ 
+  background: $almost-white-dark;
+  min-width: 200px;
+  font-size: 1rem;
+  border-radius: 10px;
+  line-height: 1.5em;
+  hyphens: none !important;
+}
+
+.year-column{
+  align-items: center; // lines up vertically
+  max-width: 120px ;
+}
+
+.default-detail-box{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5em;
+  margin: 1em 0;
+  text-align: center; // lines up vertically
+}
