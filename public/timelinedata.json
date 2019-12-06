@@ -1,0 +1,42 @@
+{
+    "2009":{
+        "title": "Started my BS degree ",
+        "description":["In Electrical and Computer Engineering at University of Colorado"],
+        "location": "Boulder,CO"
+    },
+    "2011":{
+        "title": "First engineering internship at Cirrus Logic",
+        "description": ["Worked on patent applications for electrical LED designs"],
+        "location": "Austin, TX"
+    },
+    "2012":{
+        "title": "Returned for second summer of internship at Cirrus Logic",
+        "description":["Joined Marketing Engineering team"],
+        "location": "Boulder,CO"
+    },
+    "2013":{
+        "title": "Finished BS degree, accepted first job ",
+        "description":["Graduated with BS in Electrical and Computer Engineering at University of Colorado", "Moved to Irvine, California for a electrical engineering full-time position at Western Digital"],
+        "location": "Irvine,CA"
+    },
+    "2014":{
+        "title": "Switched positions at WD to become an embedded software engineer",
+        "description":["Changed teams in Western Digital to do more software"],
+        "location": "Irvine, CA"
+    },
+    "2016":{
+        "title": "Got promoted to senior embedded software engineer",
+        "description":["At Western Digital"],
+        "location": "Irvine,CA"
+    },
+    "2017":{
+        "title": "Left WD. Accepted a Graduate school research position and started MS degree",
+        "description":["In Computer Science at University of California, Riverside", "Data Mining researcher"],
+        "location": "Riverside ,CA"
+    },
+    "2019":{
+            "title": "Left UCR. Got married. Pursuing Front End development.",
+            "description": ["Left Grad School with 3.9GPA, most credits done.", "Wanted to change gears once more.", "Got married", "Worked on Eudora." ],
+            "location": "Orange County, CA"
+    }
+}
