@@ -1,0 +1,11 @@
+@import '../../foundation';
+
+
+.portfolio-info{
+ // border: dotted 2px purple;
+  min-width: 300px;
+  max-width: 80%;
+  hyphens: auto;
+  font-size: 1.1em;
+  flex-grow: 2;
+}

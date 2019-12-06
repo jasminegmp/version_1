@@ -6,6 +6,7 @@ import Hello from '../Hello'
 import LinkBar from '../LinkBar'
 import About from '../About'
 import Timeline from '../Timeline'
+import Portfolio from '../Portfolio'
 import Contact from '../Contact'
 import "./styles.scss";
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
@@ -53,6 +54,7 @@ class Landing extends React.Component{
           <Hello/>
           <About/>
           <Timeline/>
+          <Portfolio/>
           <Contact/>
           <LinkBar/>
         </CSSTransitionGroup>
