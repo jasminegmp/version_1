@@ -2,9 +2,8 @@
 
 
 .timeline-info{
- // border: dotted 2px purple;
+  //border: dotted 2px purple;
   min-width: 300px;
-  max-width: 80%;
   hyphens: auto;
   font-size: .8em;
   flex-grow: 2;
@@ -23,6 +22,9 @@
   color: $almost-white;
 }
 
+.timeline-row{
+  flex-wrap: nowrap !important;
+}
 .section-column{
   margin: 0 .2em;
   width: 100%;

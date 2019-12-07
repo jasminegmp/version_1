@@ -71,7 +71,7 @@ class Timeline extends React.Component{
         <div className = "section-container" id = "timeline">
             <div className = "section-info timeline-info">
                 <h1 className = "section-headline">Timeline</h1>
-                <div className = "section-row">
+                <div className = "section-row timeline-row">
                   <div className = "section-column year-column">
                     {
                         data && Object.keys(data).map((year,index) => {
