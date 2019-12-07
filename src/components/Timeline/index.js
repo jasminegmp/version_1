@@ -44,9 +44,7 @@ class Timeline extends React.Component{
     
     this.state = {
         data: null,
-        prevKey: null,
-        key: null,
-        detail: null,
+        key: null
     };
   }
 

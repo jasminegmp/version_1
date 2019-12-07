@@ -1,0 +1,24 @@
+{
+    "Personal Website":{
+        "description": "You're looking at it!",
+        "link" : "https://www.eudora.app",
+        "technologies": ["React", "Firebase", "SCSS"]
+        
+    },
+    "Eudora":{
+        "description":"Eudora Social Media Website Developed a social media platform to share and look at your friend’s gift wish lists. Developed using React, Se- mantic UI for the front end and Fire- base for the hosting, database, and storage. Used the Etsy API in order to query Etsy results for users to upload into their wish list. Contains all basic functionalities of a social media plat- form. Currently released beta version.",
+        "link" : "https://www.eudora.app",
+        "technologies": ["React", "Firebase", "Etsy API", "Semantic UI"] 
+    },
+    "GIPHY Searcher": {
+        "description": "Created a React App that searches for gifs using the GIPHY API and Semantic UI for styling. It allows for social media sharing from search results.",
+        "link": "jasminegmp.github.io/giphy-search-react-app",
+        "technologies": ["React", "GIPHY API", "Semantic UI"]
+    },
+    "Where in the World?": {
+        "description": "...",
+        "link": "https://jasminegmp.github.io/where-in-the-world-react-app/",
+        "technologies": ["React", "REST Countries API", "CSS", "Semantic UI"]
+    }
+
+}
