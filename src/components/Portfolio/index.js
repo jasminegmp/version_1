@@ -2,29 +2,89 @@ import React from 'react';
 import axios from 'axios';
 import "./styles.scss";
 import "../../section.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add( fas, fab);
 
 
 const DescriptionItems = ({ data }) => {
   return (
-      data.technologies && data.technologies.map((info, index)=>{return <div key ={index} >{info}</div>})
+      data.technologies && data.technologies.map((info, index)=>{
+        return <div className = "technologies-item" key ={index}>{info}</div>
+      })
   )
 }
 
-const PortfolioDetail = ({title, data}) => {
+const ExternalLink = ({data, item}) => {
+  return (
+    <a className ="portfolio-link" href= {data[item]} target = "_blank">
+      <FontAwesomeIcon icon={['fas','external-link-alt']}>
+          <div class = "highlight">dfdf</div>
+      </FontAwesomeIcon>
+    </a>
+  )
+}
+
+const GithubLink = ({data, item}) => {
+    return (
+      <a className ="portfolio-link" href= {data[item]}  target = "_blank">
+        <FontAwesomeIcon icon={['fab','github']}>
+            <div class = "highlight"></div>
+        </FontAwesomeIcon>
+      </a>
+    )
+
+}
+
+const CodepenLink = ({data, item}) => {
+    return (
+      <a className ="portfolio-link" href= {data[item]}  target = "_blank">
+        <FontAwesomeIcon icon={['fab','codepen']}>
+            <div class = "highlight"></div>
+        </FontAwesomeIcon>
+      </a>
+    )
+
+}
+
+const PortfolioDetail = ({item, data}) => {
   return <div className = "portfolio-item">
+      <h2>{item}</h2>
       {data && Object.keys(data).map((item, index) => {
         if(item === 'technologies'){
           return (
+            <div className = "section-row row-margin">
               <DescriptionItems data = {data}/>
+            </div>
           )
         }
         else if(item === 'description'){
           return (
-             <div>{data[item]}</div>
+             <div className = "row-margin">{data[item]}</div>
           )
         }
+        else if (item === 'github'){
+          if (data[item]){
+            return (
+              <GithubLink data={data} item={item}/>
+            )
+          }
+          
+        }
+        else if (item === 'codepen'){
+          if (data[item]){
+            return (
+              <CodepenLink data={data} item={item}/>
+            )
+          }
+        }
         else{
-          return <h3>{data[item]}</h3>
+          return (
+            <ExternalLink data={data} item={item}/>
+          )
+          
         }
         
       })}

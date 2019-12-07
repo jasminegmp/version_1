@@ -24,7 +24,7 @@ const YearEvents = ({ year, data }) => {
           )
         }
         else{
-          return <h3>{data[item]}</h3>
+          return <h4>{data[item]}</h4>
         }
         
       })}
