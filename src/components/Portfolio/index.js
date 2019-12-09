@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import {Router, Link, withRouter, Route} from 'react-router-dom';
 import "./styles.scss";
 import "../../section.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -114,20 +115,27 @@ class Portfolio extends React.Component{
     const { data } = this.state;
 
     return (
-      <div className = "section-container portfolio-container" id = "portfolio">
-        <div className = "section-info portfolio-info">
-          <h1 className = "section-headline">Portfolio</h1>
-          <div className = "section-row portfolio-row">
-          {
-            data && Object.keys(data).map((item, index)=>{
-                return <PortfolioDetail key={item} item={item} data={data[item]}/>
-            })
-          }
+      <div>
+        <div className = "section-container portfolio-container" id = "portfolio">
+          <div className = "section-info portfolio-info">
+            <h1 className = "section-headline">Portfolio</h1>
+            <div className = "section-row portfolio-row">
+            {
+              data && Object.keys(data).map((item, index)=>{
+                  return <PortfolioDetail key={item} item={item} data={data[item]}/>
+              })
+            }
+            </div>
           </div>
         </div>
+        <Link to='/archive'>Archive</Link>
+        
+        
+
+
       </div>
     )
   }
 }
 
-export default Portfolio;
+export default  withRouter(Portfolio);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import "./SideDrawer.scss";
 
 const SideDrawer = props => {
@@ -11,10 +12,10 @@ const SideDrawer = props => {
   return (
     <nav className = {drawerClasses}>
         <ul>
-          <li><a href = "#about">About</a></li>
-          <li><a href = "#timeline">Timeline</a></li>
-          <li><a href = "#portfolio">Portfolio</a></li>
-          <li><a href = "#contact">Contact</a></li>
+          <li><Link to='/#about'>About</Link></li>
+          <li><Link to='/#timeline'>Timeline</Link></li>
+          <li><Link to='/#portfolio'>Portfolio</Link></li>
+          <li><Link to='/#contact'>Contact</Link></li>
         </ul>
     </nav>
   )

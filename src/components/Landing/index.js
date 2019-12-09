@@ -1,16 +1,13 @@
 import React from 'react';
-import Toolbar from '../Toolbar';
-import SideDrawer from '../SideDrawer/SideDrawer'
 import Backdrop from '../Backdrop'
 import Hello from '../Hello'
+import {Router, withRouter} from 'react-router-dom';
 import LinkBar from '../LinkBar'
 import About from '../About'
 import Timeline from '../Timeline'
 import Portfolio from '../Portfolio'
-import Contact from '../Contact'
+import Contact from '../Contact';
 import "./styles.scss";
-import { CSSTransitionGroup } from 'react-transition-group' // ES6
-
 
 class Landing extends React.Component{
 
@@ -28,8 +25,7 @@ class Landing extends React.Component{
     this.setState({sideDrawerOpen: false});
   }
 
-  // read up on using CSS transitions here:
-  //https://github.com/reactjs/react-transition-group/tree/v1-stable
+
 
   render() {
     let sideDrawer;
@@ -41,27 +37,16 @@ class Landing extends React.Component{
     }
     return (
       <div className = "landing">
-        <CSSTransitionGroup
-        transitionName="fadein"
-        transitionAppear={true}
-        transitionAppearTimeout={500}
-        transitionEnter={false}
-        transitionLeave={false}>
-
-          <Toolbar drawerClickHandler = {this.drawerToggleClickHandler}/>
-          <SideDrawer show = {this.state.sideDrawerOpen}/>
-          {backDrop}
           <Hello/>
           <About/>
           <Timeline/>
           <Portfolio/>
           <Contact/>
           <LinkBar/>
-        </CSSTransitionGroup>
       </div>
 
     );
     }
 }
 
-export default Landing;
+export default withRouter(Landing);

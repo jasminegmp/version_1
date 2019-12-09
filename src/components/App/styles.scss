@@ -2,3 +2,20 @@
     //border: dotted 10px pink;
     height: 100vh;
 }
+
+.fadein-appear {
+    opacity: 0.01;
+  }
+  
+.fadein-appear.fadein-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.landing{
+    height: 100%;
+    width: 100%;
+    //border: solid 3px purple;
+  }
+  
+  
