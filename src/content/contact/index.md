@@ -1,1 +1,1 @@
-My inbox is always open for a potential project or just to say hi!
+My inbox is always open for a potential opportunities or just to say hi!

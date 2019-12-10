@@ -2,16 +2,23 @@
 
 $logo-height: 2.5em;
 
+
 .toolbar{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: $indigo-dark;
     color: $almost-white;
     height: 3em;
     top: 0;
     left: 0;
-
+    transition:top .3s;
 }
+
+
+.hide{
+    top:-3em;
+}
+
 
 .toolbar_navigation{
     display: flex;
@@ -70,3 +77,4 @@ $logo-height: 2.5em;
         display: none;
     }
 }
+

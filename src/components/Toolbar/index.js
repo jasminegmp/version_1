@@ -5,15 +5,34 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 
 class Toolbar extends React.Component{
-  constructor(props) {
-    super(props);
+
+  state = { hide: false };
+
+  hideToolbar = () => {
+    const { hide } = this.state
+
+    window.scrollY > this.prev ?
+      !hide && this.setState({ hide: true })
+      :
+      hide && this.setState({ hide: false });
+
+    this.prev = window.scrollY;
 
   }
+  
+  componentDidMount(){
+    window.addEventListener('scroll', this.hideToolbar);
+  }
 
+  componentWillUnmount(){
+      window.removeEventListener('scroll', this.hideToolbar);
+  }
 
   render() {
+    const classHide = this.state.hide ? 'hide' : '';
     return (
-        <div className = "toolbar">
+        <div className = {`toolbar ${classHide}`}>
+
             <nav className = "toolbar_navigation">
                 <div className = "toolbar_toggle-button">
                   <DrawerToggleButton click = {this.props.drawerClickHandler}/>

@@ -36,7 +36,7 @@ class Hello extends React.Component {
         <div className = "hello-info">
           <article dangerouslySetInnerHTML={{__html: markdown}}></article>
           <p>
-            <a className = "highlight-link" href = "https://jasminegump.com" target="_blank">Get in touch</a>
+            <a className = "highlight-link" href = "#contact">Get in touch</a>
           </p>
         </div>
       </div>
