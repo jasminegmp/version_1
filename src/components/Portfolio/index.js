@@ -3,6 +3,7 @@ import axios from 'axios';
 import {Router, Link, withRouter, Route} from 'react-router-dom';
 import "./styles.scss";
 import "../../section.scss";
+import "../HighlightLink/styles.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -119,16 +120,21 @@ class Portfolio extends React.Component{
         <div className = "section-container portfolio-container" id = "portfolio">
           <div className = "section-info portfolio-info">
             <h1 className = "section-headline">Portfolio</h1>
+            
             <div className = "section-row portfolio-row">
+              
             {
               data && Object.keys(data).map((item, index)=>{
                   return <PortfolioDetail key={item} item={item} data={data[item]}/>
               })
             }
             </div>
+            <div className = "section-row">
+              <Link className = 'highlight-link' to='/archive'>View More in Archive</Link>
+            </div>
           </div>
         </div>
-        <Link to='/archive'>Archive</Link>
+        
         
         
 

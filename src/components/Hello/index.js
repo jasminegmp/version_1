@@ -2,6 +2,7 @@ import React from 'react';
 import marked from "marked";
 import "./styles.scss";
 import "../../section.scss";
+import "../HighlightLink/styles.scss";
 
 
 class Hello extends React.Component {
@@ -35,7 +36,7 @@ class Hello extends React.Component {
         <div className = "hello-info">
           <article dangerouslySetInnerHTML={{__html: markdown}}></article>
           <p>
-            <a className = "highlight" href = "https://jasminegump.com" target="_blank">Get in touch</a>
+            <a className = "highlight-link" href = "https://jasminegump.com" target="_blank">Get in touch</a>
           </p>
         </div>
       </div>
