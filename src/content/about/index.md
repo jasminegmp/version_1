@@ -1,3 +1,9 @@
-Hello! I'm Jasmine. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non orci aliquet, ultrices massa quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras elementum in felis ac mollis. Aliquam neque lectus, sagittis quis orci sed, congue malesuada est. In semper faucibus lacus in facilisis. Phasellus ultrices lorem ut euismod viverra. Curabitur eu imperdiet odio. Cras a mauris varius, dignissim nulla vel, sollicitudin eros. Aliquam erat volutpat. Integer sed facilisis lacus. Proin porttitor erat vitae tincidunt sodales. Ut cursus hendrerit urna at porttitor. Nulla interdum mattis tincidunt.
+Hello! My name is Jasmine and I'm a software developer based in Orange County, California.
+I am an ambitious, hardworking individual with a background in computer science, more specifically firmware and data mining. I am also an artist by heart and have a strong passion for the field of visual designs. 
 
-Aenean tincidunt ante tellus, eget consequat sapien imperdiet in. Praesent laoreet augue non massa consectetur, ac egestas nibh efficitur. Aliquam ullamcorper felis sed odio luctus feugiat. Fusce augue elit, consectetur a scelerisque aliquet, ultricies nec quam. Nam vestibulum tempor mi vitae imperdiet. Nulla facilisi. Suspendisse potenti. Vestibulum magna nunc, blandit vitae tortor ac, pellentesque vestibulum mi.
+I worked for 6 years before pausing my career in 2019 in order to pursue my interest in front end design and web development!
+
+Here are a few technologies I've been working with most recently:
+- Javascript
+- React
+- HTML, CSS, SCSS
