@@ -23,10 +23,10 @@
     "2014":{
         "title": "Switched positions at WD to become an embedded software engineer",
         "location": "Orange County, CA",
-        "description":["Changed teams in Western Digital because I realized I enjoyed writing software", "Lead the design and implementation of boot ROM firmware for new SoCs. Implemented in C", "Lead the design and implementation of an automation test framework for electrical characterization. Implemented in MATLAB OOP."]
+        "description":["Changed teams in Western Digital", "Lead the design and implementation of boot ROM firmware for new SoCs. Implemented in C", "Lead the design and implementation of an automation test framework for electrical characterization. Implemented in MATLAB OOP"]
     },
     "2016":{
-        "title": "Got promoted to senior embedded software engineer",
+        "title": "Got promoted to senior embedded firmware engineer",
         "location": "Orange County, CA",
         "description":["At Western Digital", "Became lead designer and implementer of boot ROM firmware"]
         
@@ -34,17 +34,17 @@
     "2017":{
         "title": "Left WD. Accepted a graduate school research position and started MS degree",
         "location": "Riverside, CA",
-        "description":["Wanted to learn more computer science topics since I was coming from a computer engineering background", "Started a MS in Computer Science at University of California, Riverside", "Researched Data Mining techniques under Professor Eamonn Keogh"]
+        "description":["Wanted to learn more computer science topics", "Started a MS in Computer Science at University of California, Riverside", "Researched Data Mining techniques under Professor Eamonn Keogh"]
         
     },
     "2019":{
             "title": "The year of many changes!",
             "location": "Orange County, CA",
-            "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React"]
+            "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off from industry", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React", "Taught math in my free time"]
     },
     "2020":{
         "title": "Actively Seeking Front End Development Position",
         "location": "Orange County, CA",
-        "description": ["Seeking front end developer positions!", "Working on personal projects"]
+        "description": ["Seeking front end developer positions!", "Working on personal projects", "Teaching math in my free time"]
     }
 }

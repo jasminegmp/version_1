@@ -6,4 +6,52 @@
   //border: solid 3px purple;
 }
 
+.section-container{
+  width: 80% !important;
+}
+
+
+.archive-info{
+  margin: 4em 0;
+  max-width: 100%;
+  hyphens: auto;
+  font-size: 1.1em;
+  flex-grow: 2;
+ }
+
+ .archive-items{
+ }
+
+ .hl-table-row tbody tr:hover {
+  background: $pink;
+  opacity: .9;
+  color: $almost-white;
+  a{
+    color: $almost-white;
+    text-decoration: none;
+  }
+  transition: all 0.3s ease;
+}
+
+.hl-table-row tbody{
+  a{
+    color: $indigo-dark;
+    text-decoration: none;
+  }
+}
+
+table { 
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  height: 9em;
+}
+
+td, th{
+  vertical-align: center;
+  //border: 1px solid red;
+  padding: 1em;
+  font-size: .75em;
+  text-decoration: none;
+}
 
