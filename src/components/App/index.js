@@ -46,7 +46,7 @@ class App extends React.Component{
       // read up on using CSS transitions here:
       //https://github.com/reactjs/react-transition-group/tree/v1-stable
 
-      //if (this.state.loading) return <Loader/>;
+      if (this.state.loading) return <Loader/>;
       return (
         <Router>
           <Switch>
