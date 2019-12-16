@@ -40,11 +40,11 @@
     "2019":{
             "title": "The year of many changes!",
             "location": "Orange County, CA",
-            "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off from industry", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React", "Taught math in my free time"]
+            "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off from industry", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React", "Tutoring math in my free time"]
     },
     "2020":{
         "title": "Actively Seeking Front End Development Position",
         "location": "Orange County, CA",
-        "description": ["Seeking front end developer positions!", "Working on personal projects", "Teaching math in my free time"]
+        "description": ["Seeking front end developer positions!", "Working on personal projects", "Teaching and tutoring math in my free time"]
     }
 }
