@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import {Router, Link, withRouter, Route} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import "./styles.scss";
 import "../../section.scss";
 import "../HighlightLink/styles.scss";
@@ -21,7 +21,7 @@ const DescriptionItems = ({ data }) => {
 
 const ExternalLink = ({data, item}) => {
   return (
-    <a className ="portfolio-link" href= {data[item]} target = "_blank">
+    <a className ="portfolio-link" href= {data[item]} target = "_blank" rel="noopener noreferrer">
       <FontAwesomeIcon icon={['fas','external-link-alt']}>
           <div class = "highlight">dfdf</div>
       </FontAwesomeIcon>
@@ -31,7 +31,7 @@ const ExternalLink = ({data, item}) => {
 
 const GithubLink = ({data, item}) => {
     return (
-      <a className ="portfolio-link" href= {data[item]}  target = "_blank">
+      <a className ="portfolio-link" href= {data[item]}  target = "_blank" rel="noopener noreferrer" >
         <FontAwesomeIcon icon={['fab','github']}>
             <div class = "highlight"></div>
         </FontAwesomeIcon>
@@ -42,7 +42,7 @@ const GithubLink = ({data, item}) => {
 
 const CodepenLink = ({data, item}) => {
     return (
-      <a className ="portfolio-link" href= {data[item]}  target = "_blank">
+      <a className ="portfolio-link" href= {data[item]}  target = "_blank" rel="noopener noreferrer" >
         <FontAwesomeIcon icon={['fab','codepen']}>
             <div class = "highlight"></div>
         </FontAwesomeIcon>
@@ -57,20 +57,20 @@ const PortfolioDetail = ({item, data}) => {
       {data && Object.keys(data).map((item, index) => {
         if(item === 'technologies'){
           return (
-            <div className = "section-row row-margin">
+            <div key = {index} className = "section-row row-margin">
               <DescriptionItems data = {data}/>
             </div>
           )
         }
         else if(item === 'description'){
           return (
-             <div className = "row-margin">{data[item]}</div>
+             <div key = {index} className = "row-margin">{data[item]}</div>
           )
         }
         else if (item === 'github'){
           if (data[item]){
             return (
-              <GithubLink data={data} item={item}/>
+              <GithubLink key = {index} data={data} item={item}/>
             )
           }
           
@@ -78,13 +78,13 @@ const PortfolioDetail = ({item, data}) => {
         else if (item === 'codepen'){
           if (data[item]){
             return (
-              <CodepenLink data={data} item={item}/>
+              <CodepenLink key = {index} data={data} item={item}/>
             )
           }
         }
         else{
           return (
-            <ExternalLink data={data} item={item}/>
+            <ExternalLink key = {index} data={data} item={item}/>
           )
           
         }
@@ -125,7 +125,7 @@ class Portfolio extends React.Component{
               
             {
               data && Object.keys(data).map((item, index)=>{
-                  return <PortfolioDetail key={item} item={item} data={data[item]}/>
+                  return <PortfolioDetail key={index} item={item} data={data[item]}/>
               })
             }
             </div>

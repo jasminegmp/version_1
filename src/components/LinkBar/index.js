@@ -12,7 +12,7 @@ function LinkBar() {
     <div className = "linkbar-container">
         <ul>
         <li className = "codepen">
-            <a href="https://codepen.io/ladyjellington" target = "_blank">
+            <a href="https://codepen.io/ladyjellington" target = "_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab','codepen']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
@@ -20,7 +20,7 @@ function LinkBar() {
         </li>
 
         <li className = "github">
-            <a href= "https://github.com/jasminegmp" target = "_blank">
+            <a href= "https://github.com/jasminegmp" target = "_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={['fab','github']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
@@ -28,7 +28,7 @@ function LinkBar() {
         </li>
 
         <li className = "linkedin">
-            <a href="https://www.linkedin.com/in/jasminegump" target = "_blank">
+            <a href="https://www.linkedin.com/in/jasminegump" target = "_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={['fab','linkedin-in']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
@@ -36,7 +36,7 @@ function LinkBar() {
         </li>
 
         <li className = "twitter">
-            <a href="https://twitter.com/ladyjellington" target = "_blank">
+            <a href="https://twitter.com/ladyjellington" target = "_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={['fab','twitter']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
@@ -44,7 +44,7 @@ function LinkBar() {
         </li>
 
         <li className = "email">
-            <a href="mailto:jasminegmp@gmail.com" target = "_blank">
+            <a href="mailto:jasminegmp@gmail.com" target = "_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon="envelope">
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>

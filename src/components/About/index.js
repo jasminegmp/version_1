@@ -31,12 +31,12 @@ class About extends React.Component{
     const { markdown } = this.state;
 
     return (
-      <div class = "section-container" id = "about">
-        <div class = "section-info about-info">
-          <h1 class = "section-headline">About Me</h1>
+      <div className = "section-container" id = "about">
+        <div className = "section-info about-info">
+          <h1 className = "section-headline">About Me</h1>
           <article dangerouslySetInnerHTML={{__html: markdown}}></article>
         </div>
-        <div class = "about-image">
+        <div className = "about-image">
           <Avatar/>
         </div>
       </div>

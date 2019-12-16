@@ -32,10 +32,10 @@ class Contact extends React.Component{
 
     return (
       <div className = "section-container" id = "contact">
-          <div class = "section-info contact-info">
+          <div className = "section-info contact-info">
             <h1 className = "section-headline">Get In Touch</h1>
             <article dangerouslySetInnerHTML={{__html: markdown}}></article>
-            <div class = "button-email">
+            <div className = "button-email">
               <Button url = "mailto:jasminegmp@gmail.com" name = "Say Hi"/>
             </div>
           </div>

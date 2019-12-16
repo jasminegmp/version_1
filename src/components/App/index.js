@@ -3,10 +3,8 @@ import Loader from '../Loader';
 import ArchivePage from '../Archive';
 import Landing from '../Landing';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import './styles.scss';
 import Toolbar from '../Toolbar';
 import SideDrawer from '../SideDrawer/SideDrawer'
-
 import "./styles.scss";
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 import Backdrop from '../Backdrop'
@@ -38,7 +36,6 @@ class App extends React.Component{
   }
 
   render() {
-      let sideDrawer;
       let backDrop;
 
       if (this.state.sideDrawerOpen)

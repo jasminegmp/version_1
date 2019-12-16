@@ -1,7 +1,7 @@
 import React from 'react';
 import Backdrop from '../Backdrop'
 import Hello from '../Hello'
-import {Router, withRouter} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import LinkBar from '../LinkBar'
 import About from '../About'
 import Timeline from '../Timeline'
@@ -28,7 +28,6 @@ class Landing extends React.Component{
 
 
   render() {
-    let sideDrawer;
     let backDrop;
 
     if (this.state.sideDrawerOpen)

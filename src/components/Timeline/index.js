@@ -74,7 +74,7 @@ class Timeline extends React.Component{
                     {
                         data && Object.keys(data).map((year,index) => {
                           return (
-                            <button className="year-container" onClick={(event)=>this.handleClick(event, year)}>{year}</button>
+                            <button key = {index} className="year-container" onClick={(event)=>this.handleClick(event, year)}>{year}</button>
                           )})
                       }
                     </div>
