@@ -15,10 +15,10 @@ Thanks for checking this out! I created my personal website because I'm coming f
 * npm @fortawesome/react-fontawesome
 
 ## What I used
-[React](http://google.com) for Javascript library
-[Firebase](http://google.com) for hosting
-[SCSS](http://google.com) for styling
-[Greensocks](http://google.com) for SVG animation
-[Font Awesome](http://google.com) for icons
-[Visual Studio Code](http://google.com) for coding
-[Cloudinary](http://google.com) for image hosting
+* [React](http://google.com) for Javascript library
+* [Firebase](http://google.com) for hosting
+* [SCSS](http://google.com) for styling
+* [Greensocks](http://google.com) for SVG animation
+* [Font Awesome](http://google.com) for icons
+* [Visual Studio Code](http://google.com) for coding
+* [Cloudinary](http://google.com) for image hosting
