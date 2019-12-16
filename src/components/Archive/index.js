@@ -40,12 +40,14 @@ class ArchiveBase extends React.Component {
     render() {
         const { markdown } = this.state;
         return(
+          <div className = "archive">
             <div className = "section-container">
                 <div className = "section-info archive-info ">
                     <h1 className = "section-headline">Archive</h1>
                     <h2 className = "section-subheadline">A list of things I've worked on.</h2>
                     <article className = "hl-table-row "  dangerouslySetInnerHTML={{__html: markdown}}></article>
                 </div>
+            </div>
             </div>
         )
     }
