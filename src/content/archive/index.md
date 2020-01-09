@@ -1,6 +1,6 @@
 | Year | Project     | Built Using| | |
 |------|-----------|---------|------|------------|
-| 2019 | Personal Website V1 | React, Flask, Heroku, SCSS, Makeup API, Data Mining | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://jasminegump.com )|
+| 2019 | ColorDupeFinder | React, Flask, Heroku, SCSS, Makeup API, Data Mining | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://jasminegump.com )|
 | 2019 | Personal Website V1 | React, Firebase, SCSS | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://jasminegump.com )|
 | 2019 | Eudora | React, Firebase, Etsy API, Semantic UI | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://eudora.app )|
 | 2019 | GIPHY Searcher | React, GIPHY API, Semantic UI | [Github](https://github.com/jasminegmp/giphy-search-react-app) | [Link](https://jasminegmp.github.io/giphy-search-react-app) |
