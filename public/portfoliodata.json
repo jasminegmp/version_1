@@ -1,4 +1,12 @@
 {
+    "ColorDupeFinder": {
+        "link": "https://colordupefinder.herokuapp.com/",
+        "github": "https://github.com/jasminegmp/colordupefinder_heroku",
+        "codepen": "",
+        "description": "Developed a tool that allows users to find similar makeup of a particular color. It's queries the Makeup API and uses data mining techniques in order to find the colors most similar.",
+        "technologies": ["React", "Flask", "Heroku", "Makeup API", "Data Mining"]
+        
+    },
     "Personal Website":{
         "link" : "https://jasminegump.com",
         "github": "https://github.com/jasminegmp/version_1",
@@ -13,13 +21,6 @@
         "codepen": "",
         "description":"Developed a social media platform to share and look at your friend’s gift wish lists. Currently released beta version.",
         "technologies": ["React", "Firebase", "Etsy API", "Semantic UI"]
-    },
-    "GIPHY Searcher": {
-        "link": "https://jasminegmp.github.io/giphy-search-react-app",
-        "github": "https://github.com/jasminegmp/giphy-search-react-app",
-        "codepen": "",
-        "description": "Created a React App that searches for gifs using the GIPHY API. It allows for social media sharing from search results.",
-        "technologies": ["React", "GIPHY API", "Semantic UI"]
     },
     "Where in the World?": {
         "link": "https://jasminegmp.github.io/where-in-the-world-react-app/",
