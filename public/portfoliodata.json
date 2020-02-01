@@ -1,4 +1,12 @@
 {
+    "Adoptable Doggies": {
+        "link": "https://adoptabledoggies.herokuapp.com/",
+        "github": "https://github.com/jasminegmp/adoptabledoggies",
+        "codepen": "",
+        "description": "Used data visualization to reveal the most common types of breeds and other dogs up for adoption using data acquired by  data mining PetFinder's API.",
+        "technologies": ["React", "Flask", "Heroku", "Petfinder API", "Data Mining", "D3", "API"]
+        
+    },
     "ColorDupeFinder": {
         "link": "https://colordupefinder.herokuapp.com/",
         "github": "https://github.com/jasminegmp/colordupefinder_heroku",
@@ -21,14 +29,6 @@
         "codepen": "",
         "description":"Developed a social media platform to share and look at your friend’s gift wish lists. Currently released beta version.",
         "technologies": ["React", "Firebase", "Etsy API", "Semantic UI"]
-    },
-    "Where in the World?": {
-        "link": "https://jasminegmp.github.io/where-in-the-world-react-app/",
-        "github": "https://github.com/jasminegmp/where-in-the-world-react-app",
-        "codepen": "",
-        "description": "Developed a React App that is integrated with the REST Countries API so the user can search for any country's information. ",
-        "technologies": ["React", "REST Countries API", "CSS", "Semantic UI"]
-        
     }
 
 }
