@@ -1,7 +1,8 @@
 | Year | Project     | Built Using| | |
 |------|-----------|---------|------|------------|
-| 2020 | Adoptable Doggies | React, Flask, Heroku, D3, SCSS, Makeup API, Data Mining | [Github](https://github.com/jasminegmp/adoptabledoggies)  | [Link](https://adoptabledoggies.herokuapp.com/)|
+| 2020 | Adoptable Doggies | React, Flask, Heroku, D3, SCSS, Petfinder API, Data Mining | [Github](https://github.com/jasminegmp/adoptabledoggies)  | [Link](https://adoptabledoggies.herokuapp.com/)|
 | 2020 | ColorDupeFinder | React, Flask, Heroku, SCSS, Makeup API, Data Mining | [Github](https://github.com/jasminegmp/colordupefinder_heroku)  | [Link](https://colordupefinder.herokuapp.com/)|
+| 2020 | Baby Names 1880 - 2018 | React, D3, SCSS, Data Mining | [Github](https://github.com/jasminegmp/baby_names)  | [Link](https://baby-names-us.firebaseapp.com/)|
 | 2019 | Personal Website V1 | React, Firebase, SCSS | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://jasminegump.com )|
 | 2019 | Eudora | React, Firebase, Etsy API, Semantic UI | [Github](https://github.com/jasminegmp/version_1)  | [Link](https://eudora.app )|
 | 2019 | GIPHY Searcher | React, GIPHY API, Semantic UI | [Github](https://github.com/jasminegmp/giphy-search-react-app) | [Link](https://jasminegmp.github.io/giphy-search-react-app) |

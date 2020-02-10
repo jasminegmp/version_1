@@ -3,7 +3,7 @@
         "link": "https://adoptabledoggies.herokuapp.com/",
         "github": "https://github.com/jasminegmp/adoptabledoggies",
         "codepen": "",
-        "description": "Used data visualization to reveal the most common types of breeds and other dogs up for adoption using data acquired by  data mining PetFinder's API.",
+        "description": "Used data visualization to reveal the most common types of breeds and other dogs up for adoption using data acquired by data mining PetFinder's API.",
         "technologies": ["React", "Flask", "Heroku", "Petfinder API", "Data Mining", "D3", "API"]
         
     },
@@ -13,6 +13,14 @@
         "codepen": "",
         "description": "Developed a tool that allows users to find similar makeup of a particular color. It's queries the Makeup API and uses data mining techniques in order to find the colors most similar.",
         "technologies": ["React", "Flask", "Heroku", "Makeup API", "Data Mining"]
+        
+    },
+    "Baby Name Popularity Visualization 1880 - 2018": {
+        "link": "https://baby-names-us.firebaseapp.com/",
+        "github": "https://github.com/jasminegmp/baby_names",
+        "codepen": "",
+        "description": "Visualized the popularity of baby names according to data from the US Social Security.",
+        "technologies": ["React", "Firebase", "D3", "Data Mining"]
         
     },
     "Personal Website":{
