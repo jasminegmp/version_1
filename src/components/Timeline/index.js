@@ -12,7 +12,9 @@ const DescriptionItems = ({ data }) => {
 const YearEvents = ({ year, data }) => {
   return (
     <ul className = "list-container" >
+      <h5>{year}</h5>
       {data && Object.keys(data).map((item, index) => {
+        
         if(item === 'description'){
           return (
               <DescriptionItems data = {data}/>
@@ -43,8 +45,12 @@ class Timeline extends React.Component{
     super(props);
     
     this.state = {
-        data: null,
-        key: null
+        data: {
+          "title": "Joined Zymo Research as a Software Developer ",
+          "location": "Orange County, CA",
+          "description": ["Leading and supporting the development of web applications, tools, and landing pages for the e-commerce website at Zymo Research", "Specifically develop with Python, Flask, Javascript, jQuery, Bootstrap, API, Shopify Themekit and Liquid, HTML/CSS"]
+        },
+        key: "2020"
     };
   }
 
