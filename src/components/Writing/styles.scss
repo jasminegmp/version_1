@@ -21,7 +21,7 @@
 
 
  .hl-table-row tbody tr:hover {
-  background: $pink;
+  background: $color_400;
   opacity: .9;
   color: $almost-white;
   a{
@@ -33,7 +33,7 @@
 
 .hl-table-row tbody{
   a{
-    color: $indigo-dark;
+    color: $color_400;
     text-decoration: none;
   }
 }

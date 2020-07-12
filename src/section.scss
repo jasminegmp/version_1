@@ -33,14 +33,14 @@
 .section-headline{
   font-family: 'Source Code Pro', monospace;
   font-size: 2rem;
-  color: $pink;
+  color: $color_300;
   position: relative;
   overflow: hidden;
   &:after{
     display: inline-block;
     content: "";
     height: 2px;
-    background: $pink;
+    background: $color_300;
     opacity: .6;
     position: absolute;
     width: 100%;
@@ -49,7 +49,6 @@
     margin-left: 10px;
   }
 }
-
 
 .section-subheadline{
   font-family: 'Source Code Pro', monospace;

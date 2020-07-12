@@ -19,7 +19,7 @@
 
 .year-container{
   margin: .5em 0;
-  border: 2px solid $pink !important;
+  border: 2px solid $color_400 !important;
 }
 
 .year-container:hover{
@@ -35,7 +35,7 @@
 }
 
 .detail-column{ 
-  background: $almost-white-dark;
+  background: $color_900;
   min-width: 200px;
   font-size: 1rem;
   border-radius: 10px;

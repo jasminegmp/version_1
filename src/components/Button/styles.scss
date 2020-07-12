@@ -6,22 +6,22 @@ button{
     width: 8em;
     text-align:center;
     font-size: 1em;
-    color: $pink;
+    color: $color_300;
     padding: .25em;
-    border: 5px solid $pink;
-    border-radius: 10px;
+    border: 2px solid $color_300;
+    border-radius: 50px;
 
 }
 
 button a{
-    color: $pink;
+    color: $color_300;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
 button:hover{
     cursor: pointer;
-    background: $pink;
+    background: $color_300;
     transition-duration: .4s;
     a{
         color: $almost-white;

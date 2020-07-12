@@ -2,7 +2,7 @@
 
 $image-size: 200px;
 $border-radius: 50%;
-$highlight-border: 10px;
+$highlight-border: 0px;
 
 .avatar_container{
   position: relative;
@@ -11,7 +11,7 @@ $highlight-border: 10px;
 
 .avatar_overlay{
   z-index: 2;
-  background-color: $indigo-light;
+  background-color: $color_900;
   opacity: .3;
   position: relative;
   width: $image-size;
@@ -43,7 +43,7 @@ $highlight-border: 10px;
   opacity: 0;
   position: absolute;
   z-index: 0;
-  border: $highlight-border solid $indigo-light;
+  border: $highlight-border solid $color_800;
   left: $highlight-border * -1;
   top: $highlight-border * -1;
   width: $image-size;

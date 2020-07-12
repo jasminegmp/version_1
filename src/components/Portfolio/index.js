@@ -119,7 +119,8 @@ class Portfolio extends React.Component{
       <div>
         <div className = "section-container portfolio-container" id = "portfolio">
           <div className = "section-info portfolio-info">
-            <h1 className = "section-headline">Portfolio</h1>
+            <h1 className = "section-headline">Personal Projects</h1>
+            <h2 className = "section-subheadline">Here are just some projects I've developed for fun in the past</h2> 
             
             <div className = "section-row portfolio-row">
               
