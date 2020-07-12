@@ -11,13 +11,6 @@ function LinkBar() {
   return (
     <div className = "linkbar-container">
         <ul>
-        <li className = "codepen">
-            <a href="https://codepen.io/ladyjellington" target = "_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={['fab','codepen']}>
-                    <div class = "highlight"></div>
-                </FontAwesomeIcon>
-            </a>
-        </li>
 
         <li className = "github">
             <a href= "https://github.com/jasminegmp" target = "_blank" rel="noopener noreferrer" >
@@ -27,17 +20,25 @@ function LinkBar() {
             </a>
         </li>
 
-        <li className = "linkedin">
-            <a href="https://www.linkedin.com/in/jasminegump" target = "_blank" rel="noopener noreferrer" >
-                <FontAwesomeIcon icon={['fab','linkedin-in']}>
+        <li className = "medium">
+            <a href="https://medium.com/@jasminegump" target = "_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={['fab','medium']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
             </a>
         </li>
 
-        <li className = "twitter">
-            <a href="https://twitter.com/ladyjellington" target = "_blank" rel="noopener noreferrer" >
-                <FontAwesomeIcon icon={['fab','twitter']}>
+        <li className = "codepen">
+            <a href="https://codepen.io/ladyjellington" target = "_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={['fab','codepen']}>
+                    <div class = "highlight"></div>
+                </FontAwesomeIcon>
+            </a>
+        </li>
+
+        <li className = "linkedin">
+            <a href="https://www.linkedin.com/in/jasminegump" target = "_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon icon={['fab','linkedin-in']}>
                     <div class = "highlight"></div>
                 </FontAwesomeIcon>
             </a>

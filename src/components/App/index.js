@@ -1,6 +1,7 @@
 import React from 'react';
 import Loader from '../Loader';
 import ArchivePage from '../Archive';
+import WritingPage from '../Writing';
 import Landing from '../Landing';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Toolbar from '../Toolbar';
@@ -53,6 +54,7 @@ class App extends React.Component{
             <div className = "app-container landing">
               <Route exact path='/' component={Landing}/>
               <Route path="/archive" component={ArchivePage}/>
+              <Route path="/writing" component={WritingPage}/>
               <CSSTransitionGroup
               transitionName="fadein"
               transitionAppear={true}

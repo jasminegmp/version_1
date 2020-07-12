@@ -1,0 +1,72 @@
+@import '../../foundation';
+
+.archive{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.section-container{
+  width: 80% !important;
+}
+
+
+.archive-info{
+  margin: 4em 0;
+  width: 100%;
+  hyphens: auto;
+  font-size: 1.1em;
+  flex-grow: 2;
+ }
+
+
+ .hl-table-row tbody tr:hover {
+  background: $pink;
+  opacity: .9;
+  color: $almost-white;
+  a{
+    color: $almost-white;
+    text-decoration: none;
+  }
+  transition: all 0.3s ease;
+}
+
+.hl-table-row tbody{
+  a{
+    color: $indigo-dark;
+    text-decoration: none;
+  }
+}
+
+
+table { 
+  border-collapse: collapse;
+  text-align: left;
+  height: 9em;
+}
+
+td, th{
+  vertical-align: center;
+  padding: 1em;
+  font-size: .5em;
+  text-decoration: none;
+}
+
+@media (min-width:700px){
+
+  table { 
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    height: 9em;
+  }
+
+  td, th{
+    vertical-align: center;
+    //border: 1px solid red;
+    padding: 1em;
+    font-size: .75em;
+    text-decoration: none;
+  }
+
+}

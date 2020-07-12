@@ -43,8 +43,8 @@
             "description": ["Left Grad School after completing 80% of degree with 3.9GPA", "Decided to take some time off from industry", "Got married", "Wanted to change gears to switch to doing more front end development", "Built experience with front end web development technologies: HTML, CSS/CSS3, Javascript/ES6+, React", "Tutoring math in my free time"]
     },
     "2020":{
-        "title": "Actively Seeking Front End Development Position",
+        "title": "Joined Zymo Research as a Software Developer ",
         "location": "Orange County, CA",
-        "description": ["Seeking front end developer positions!", "Working on personal projects", "Teaching and tutoring math in my free time"]
+        "description": ["Leading and supporting the development of web applications, tools, and landing pages for the e-commerce website at Zymo Research", "Specifically develop with Python, Flask, Javascript, jQuery, Bootstrap, API, Shopify Themekit and Liquid, HTML/CSS"]
     }
 }

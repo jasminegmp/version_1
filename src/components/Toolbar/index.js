@@ -52,6 +52,7 @@ class Toolbar extends React.Component{
                       <li><Link to='/#about'>About</Link></li>
                       <li><Link to='/#timeline'>Timeline</Link></li>
                       <li><Link to='/#portfolio'>Portfolio</Link></li>
+                      <li><Link to='/writing'>Writing</Link></li>
                       <li><Link to='/#contact'>Contact</Link></li>
                     </ul>
                 </div>

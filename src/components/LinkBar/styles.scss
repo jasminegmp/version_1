@@ -23,22 +23,23 @@ html, body {
     }
     
     li.codepen{
-        background: $indigo-dark;
+        background: $color_700;
     }
+
     
     li.github{
-        background: $purple-dark;
+        background: $color_500;
     }
     
     li.linkedin{
-        background: $pink;
+        background: $color_800;
     }
-    li.twitter{
-        background: $purple-light;
+    li.medium{
+        background: $color_600;
     }
     
     li.email{
-        background: $indigo-light;
+        background: $color_900;
     }
     
     li a{
